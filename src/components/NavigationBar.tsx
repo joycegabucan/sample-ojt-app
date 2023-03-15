@@ -9,9 +9,10 @@ function NavigationBar() {
             <Container>
               <Navbar.Brand href="/Home">FarmFriend</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="/add">View User</Nav.Link>
-                <Nav.Link href="/display">View Ratings</Nav.Link>
-                <Nav.Link href="/reports">View Reports</Nav.Link>
+                <Nav.Link href="/add">Add User</Nav.Link>
+                <Nav.Link href="/display">View List</Nav.Link>
+                <Nav.Link href="/update">Update User</Nav.Link>
+                <Nav.Link href="/delete">Delete User</Nav.Link>
               </Nav>
             </Container>
           </Navbar>

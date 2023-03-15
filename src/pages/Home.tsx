@@ -1,7 +1,8 @@
 function Home() {
 return(
     <div>
-        <img src="FARMFRIEND LOGO .jpg" alt="" />
+        <img src="logo.png" alt="" height={900} width={1000}/>
+        
     </div>
 )
 }

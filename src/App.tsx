@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
-import RetrieveProduct from './pages/RetrieveProduct';
-import CreateProduct from './pages/CreateProduct';
+import DisplayUser from './pages/DisplayUser';
+import AddUser from './pages/AddUser';
 import './App.css';
 import Home from './pages/Home';
 
@@ -23,11 +23,12 @@ const [farmers, setFarmers]= useState<any[]>([]);
         <NavigationBar />
           <Routes>
             <Route path='/home' element={<Home/>}></Route>
-            <Route path='/add' element={<CreateProduct callback={createUserFunc} />}></Route>
-            <Route path='/display' element={<RetrieveProduct farmers={farmers}/>}></Route>
+            <Route path='/add' element={<AddUser callback={createUserFunc} />}></Route>
+            <Route path='/display' element={<DisplayUser farmers={farmers}/>}></Route>
             {/* <Route path='/reports' element={<Retrie  */}
           </Routes>
       </BrowserRouter>
+      <img src="background.jpeg" alt="" />
     </div>
   );
 }
