@@ -7,7 +7,7 @@ function NavigationBar() {
         <>
           <Navbar bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand href="/Home">FarmFriend</Navbar.Brand>
+              <Navbar.Brand href="/Home"><b>FarmFriend</b></Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/add">Add User</Nav.Link>
                 <Nav.Link href="/display">View List</Nav.Link>
@@ -16,7 +16,6 @@ function NavigationBar() {
               </Nav>
             </Container>
           </Navbar>
-          <div></div>
         </>
       );
 }
