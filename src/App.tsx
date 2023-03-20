@@ -76,9 +76,7 @@ setUsers(users.filter((user: any) => {
             <Route path='/add' element={<AddUser/>}></Route>
             <Route path='/display' element={<DisplayUser/>}></Route>
             <Route path='/delete' element={<DeleteUser/>}></Route>
-            <Route path='/update' element={<UpdateUser  searchByIdCallback={searchById}
-                                                        updateUser = {updateUser}
-                                                        updateCallback = {updateCallback}/>}></Route>
+            <Route path='/update' element={<UpdateUser/>}></Route>
           </Routes>
       </BrowserRouter>
     </div>

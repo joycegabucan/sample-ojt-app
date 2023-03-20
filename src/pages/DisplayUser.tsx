@@ -39,7 +39,3 @@ function DisplayUser () {
     );
 }
 export default DisplayUser;
-
-function setFarmer(arg0: (oldDataInput: any) => any) {
-  throw new Error("Function not implemented.");
-}
